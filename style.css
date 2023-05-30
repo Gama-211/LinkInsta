@@ -26,10 +26,21 @@ body{
     text-align:center
     }
     
+    .info{
+      margin: 0;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+
+    .info p {
+      margin: 0;
+      font-weight: bold;
+      font-family:"Arial",sans-serif
+    }
+
     h1{
     margin:0;
     margin-top:5px;
-    margin-bottom:20px;
     font-weight:700;
     text-shadow:2px 2px 4px rgba(0,0,0,0.5);
     font-family:"Arial",sans-serif
@@ -93,7 +104,7 @@ body{
     bottom:0;
     width:100%;
     background-color:rgba(0,0,0,0.6);
-    padding:10px 0;
+    padding:5px 0;
     text-align:center
     }
     

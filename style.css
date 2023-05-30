@@ -1,162 +1,107 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url('/imgs/fundo.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content {
-    width: 300px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 20px;
-    text-align: center;
-}
-
-h1 {
-    margin: 0;
-    margin-bottom: 10px;
-}
-
-.img {
-    width: 120px;
-    border-radius: 50%;
-}
-
-.icons {
-    width: 10%;
-    margin-right: 5px;
-}
-
-.buttons-container {
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: blue;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.button:hover {
-    background-color: gray;
-}
-
-.footer {
-    margin-top: 30px;
-}
-
-.footer p {
-    color: #000000;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-.footer a {
-    text-decoration: none;
-}
-/* body {
-    margin: 0;
-    padding: 0;
-    background-image: url('sua-imagem-de-fundo.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content {
-    width: 300px;
-    height: 360px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.icons {
-    width: 10%;
-}
-
-.img {
-    width: 120px;
-    border-radius: 50%;
-}
-
-h1 {
-    margin: 0;
-    margin-bottom: 10px;
-}
-.buttons-container {
-    margin-bottom: 20px;
-}
-
-.button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: blue;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    border: none;
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: gray;
-}
-
-.footer {
-    margin-top: 30px;
-}
-
-.footer p {
-    color: #000000;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-.footer a {
-    text-decoration: none;
-}
-*/
+body{
+    margin:0;
+    padding:0;
+    background-image:url(/imgs/fundo.png);
+    background-size:cover;
+    background-position:center
+    }
+    
+    .overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:rgba(0,0,0,0.6);
+    display:flex;
+    justify-content:center;
+    align-items:center
+    }
+    
+    .content{
+    width:330px;
+    padding:20px;
+    background-color:#fff;
+    border-radius:20px;
+    text-align:center
+    }
+    
+    h1{
+    margin:0;
+    margin-top:5px;
+    margin-bottom:20px;
+    font-weight:700;
+    text-shadow:2px 2px 4px rgba(0,0,0,0.5);
+    font-family:"Arial",sans-serif
+    }
+    
+    .img{
+    width:120px;
+    border-radius:50%;
+    box-shadow:0 2px 4px rgba(0,0,0,0.3)
+    }
+    
+    .icons{
+    width:10%;
+    margin-right:5px
+    }
+    
+    .buttons-container{
+    margin-bottom:20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center
+    }
+    
+    .button{
+    display:block;
+    width:100%;
+    padding:10px;
+    background-color:blue;
+    color:#fff;
+    text-decoration:none;
+    border-radius:5px;
+    margin-bottom:10px;
+    border:none;
+    cursor:pointer;
+    display:flex;
+    justify-content:center;
+    align-items:center
+    }
+    
+    .button p{
+    font-weight:700;
+    font-size:2vh
+    }
+    
+    .button:hover{
+    background-color:gray
+    }
+    
+    #prainha{
+    width:28px;
+    margin-right:5px
+    }
+    
+    .prainha{
+    width:120px
+    }
+    
+    .footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:rgba(0,0,0,0.6);
+    padding:10px 0;
+    text-align:center
+    }
+    
+    .footer p{
+    color:#fff;
+    margin:0
+    }
+    
+    .footer a{
+    text-decoration:none
+    }
